@@ -1,0 +1,131 @@
+[
+  {
+    "id": "javascript-basics",
+    "title": "JavaScript Basics",
+    "description": "Test your knowledge of JavaScript fundamentals including variables, functions, and basic concepts.",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which keyword is used to declare a constant in JavaScript?",
+        "choices": ["var", "let", "const", "define"],
+        "correctAnswer": 2,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 2,
+        "question": "JavaScript is a statically typed language.",
+        "choices": ["True", "False"],
+        "correctAnswer": 1,
+        "type": "true_false"
+      },
+      {
+        "id": 3,
+        "question": "What does 'typeof null' return in JavaScript?",
+        "choices": ["null", "undefined", "object", "number"],
+        "correctAnswer": 2,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 4,
+        "question": "Which method is used to add an element to the end of an array?",
+        "choices": ["push()", "pop()", "shift()", "unshift()"],
+        "correctAnswer": 0,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 5,
+        "question": "What is the output of '2' + 2 in JavaScript?",
+        "choices": ["4", "22", "NaN", "undefined"],
+        "correctAnswer": 1,
+        "type": "multiple_choice"
+      }
+    ]
+  },
+  {
+    "id": "typescript-fundamentals",
+    "title": "TypeScript Fundamentals",
+    "description": "Evaluate your understanding of TypeScript type system, interfaces, and advanced features.",
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which symbol is used for type assertion in TypeScript?",
+        "choices": ["as", "is", "typeof", "instanceof"],
+        "correctAnswer": 0,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 2,
+        "question": "TypeScript interfaces can extend multiple interfaces.",
+        "choices": ["True", "False"],
+        "correctAnswer": 0,
+        "type": "true_false"
+      },
+      {
+        "id": 3,
+        "question": "What does the 'unknown' type represent in TypeScript?",
+        "choices": ["Any value without type checking", "A type-safe counterpart of any", "An undefined value", "A null value"],
+        "correctAnswer": 1,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 4,
+        "question": "Which utility type makes all properties optional?",
+        "choices": ["Required<T>", "Partial<T>", "Readonly<T>", "Pick<T, K>"],
+        "correctAnswer": 1,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 5,
+        "question": "Enums in TypeScript can only have numeric values.",
+        "choices": ["True", "False"],
+        "correctAnswer": 1,
+        "type": "true_false"
+      }
+    ]
+  },
+  {
+    "id": "general-knowledge",
+    "title": "General Knowledge",
+    "description": "A mix of general knowledge questions covering science, geography, and history.",
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the chemical symbol for gold?",
+        "choices": ["Go", "Gd", "Au", "Ag"],
+        "correctAnswer": 2,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 2,
+        "question": "The Great Wall of China is visible from space with the naked eye.",
+        "choices": ["True", "False"],
+        "correctAnswer": 1,
+        "type": "true_false"
+      },
+      {
+        "id": 3,
+        "question": "Which planet is known as the Red Planet?",
+        "choices": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "correctAnswer": 1,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 4,
+        "question": "How many continents are there on Earth?",
+        "choices": ["5", "6", "7", "8"],
+        "correctAnswer": 2,
+        "type": "multiple_choice"
+      },
+      {
+        "id": 5,
+        "question": "Water boils at 100 degrees Celsius at sea level.",
+        "choices": ["True", "False"],
+        "correctAnswer": 0,
+        "type": "true_false"
+      }
+    ]
+  }
+]

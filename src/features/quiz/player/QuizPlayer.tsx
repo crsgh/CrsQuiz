@@ -73,6 +73,7 @@ export function QuizPlayer({ quiz }: { quiz: PublicQuiz }) {
     if (timeLeft === 0 && currentIndex === total - 1 && !submitting) {
       submit();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timeLeft, currentIndex, total]);
 
   // Cheating detection: visibility change (alt-tab)
