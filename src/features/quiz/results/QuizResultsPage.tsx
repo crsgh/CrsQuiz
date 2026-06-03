@@ -162,10 +162,10 @@ export function QuizResultsPage({ quiz }: { quiz: PublicQuiz }) {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-white">
-                      Tab switches detected: <span className="text-amber-400">{result.tabSwitchCount}</span>
+                      Tab switches detected: <span className="text-amber-400">{result.tabSwitchCount ?? 0}</span>
                     </p>
                     <p className="text-xs text-zinc-400 mt-0.5">
-                      You left the quiz tab {result.tabSwitchCount} time{result.tabSwitchCount > 1 ? "s" : ""} during the session. This activity has been logged.
+                      You left the quiz tab {result.tabSwitchCount ?? 0} time{(result.tabSwitchCount ?? 0) > 1 ? "s" : ""} during the session. This activity has been logged.
                     </p>
                   </div>
                 </div>
